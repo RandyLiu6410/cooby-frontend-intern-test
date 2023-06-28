@@ -81,6 +81,9 @@ export const SearchResult = memo<SearchResultProps>(({ searchValue }) => {
 
   if (error) return "Oops! Something wrong...";
 
+  if (searchValue !== "" && results.length === 0)
+    return "No results were found. Check your spelling or try different keywords.";
+
   return (
     <div className={styles.search__searchResults__wrapper}>
       {results.map((hit) => (

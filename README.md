@@ -52,3 +52,6 @@ To optimize API requests and prevent them from being sent excessively when the s
 
 ### Infinite scroll
 In addition to traditional pagination, the project incorporates an alternative data fetching mechanism known as Infinite Scroll. This feature allows users to seamlessly retrieve the next page of search results without manually clicking a `Load More` button. The code responsible for implementing infinite scroll can be found in `src/components/search/search-results/index.tsx` and is provided as a commented section. Feel free to try.
+
+### Skeleton
+To enhance the user experience during the API request's response time, a skeleton for displaying results is implemented.
