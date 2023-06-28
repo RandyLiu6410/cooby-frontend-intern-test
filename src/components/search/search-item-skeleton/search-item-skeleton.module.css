@@ -1,0 +1,18 @@
+.search__searchItemSkeleton {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  position: relative;
+}
+
+.search__searchItemSkeleton:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.search__searchItemSkeleton__title {
+  width: 80%;
+}
+
+.search__searchItemSkeleton__content {
+  width: 60%;
+}
